@@ -10,13 +10,28 @@ namespace GenericsArrProblem
     {
         public static void ToPrint(int[] array)
         {
-            foreach(int element in array)
+            Console.WriteLine("\nDisplaying integer numbers");
+            foreach (int element in array)
             {
                 Console.Write(element+ " ");
             }
         }
-
-
+        public static void ToPrint(double[] array)
+        {
+            Console.WriteLine("\nDisplaying double numbers");
+            foreach (int element in array)
+            {
+                Console.Write(element + " ");
+            }
+        }
+        public static void ToPrint(char[] array)
+        {
+            Console.WriteLine("\nDisplaying char numbers");
+            foreach (int element in array)
+            {
+                Console.Write(element + " ");
+            }
+        }
 
     }
 }
