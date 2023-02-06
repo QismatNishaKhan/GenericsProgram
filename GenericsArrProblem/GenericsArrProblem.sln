@@ -3,9 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GenericsArrProblem", "GenericsArrProblem\GenericsArrProblem.csproj", "{D815D163-D2E1-4A73-9930-F826AB6D778A}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FindMaxNumber", "..\FindMaxNumber\FindMaxNumber.csproj", "{184AE0BD-52B6-4AC5-B33A-7787818A391E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GenericsArrProblem", "GenericsArrProblem\GenericsArrProblem.csproj", "{D815D163-D2E1-4A73-9930-F826AB6D778A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +15,6 @@ Global
 		{D815D163-D2E1-4A73-9930-F826AB6D778A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D815D163-D2E1-4A73-9930-F826AB6D778A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D815D163-D2E1-4A73-9930-F826AB6D778A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{184AE0BD-52B6-4AC5-B33A-7787818A391E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{184AE0BD-52B6-4AC5-B33A-7787818A391E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{184AE0BD-52B6-4AC5-B33A-7787818A391E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{184AE0BD-52B6-4AC5-B33A-7787818A391E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
