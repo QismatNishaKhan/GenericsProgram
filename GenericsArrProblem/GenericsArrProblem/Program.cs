@@ -10,7 +10,7 @@
             char[] charArray = {'c','d','g','r'};
 
             Console.WriteLine("Please choose a program from below option ");
-            Console.WriteLine(" 1:PrintArray\n2:PrintArray using Generic Method");
+            Console.WriteLine(" 1:PrintArray\n 2:PrintArray using Generic Method\n 3:GenericClassConcept");
             int option = Convert.ToInt32(Console.ReadLine());
             switch (option)
             {
@@ -25,6 +25,16 @@
                     GenericPrintArray.ToPrint<int>(intArray);
                     GenericPrintArray.ToPrint<double>(doubleArray);
                     GenericPrintArray.ToPrint<char>(charArray);
+                    break;
+                case 3:
+                    GenericClassConcept<int> intObject = new GenericClassConcept<int>(intArray);
+                    intObject.ToPrint();
+                    break;
+
+
+
+
+
                     break;
             }
          
