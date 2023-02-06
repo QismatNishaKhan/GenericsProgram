@@ -26,7 +26,7 @@ namespace GenericsArrProblem
         }
         public static void ToPrint(char[] array)
         {
-            Console.WriteLine("\nDisplaying char numbers");
+            Console.WriteLine("\nDisplaying  numbers");
             foreach (int element in array)
             {
                 Console.Write(element + " ");
